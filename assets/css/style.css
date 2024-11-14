@@ -180,16 +180,16 @@ button:focus {
 }
 .btn {
 	border: 0;
-	border-width: 1px;
-	cursor: pointer;
-	line-height: normal;
-	padding: 10px 30px;
-	text-transform: capitalize;
-	position: relative;
-	transition: all 0.5s ease-in-out;
-	z-index: 1;
-	overflow: hidden;
-	border-radius: 30px;
+    border-width: 1px;
+    cursor: pointer;
+    line-height: normal;
+    padding: 10px 35px;
+    text-transform: capitalize;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 12px;
     height: 40px;
 }
 .btn.active:focus, .btn:active:focus {
@@ -967,13 +967,14 @@ button:focus {
 	top: 10px;
 }
 .navbar .navbar-nav > li > .nav-link {
-	font-weight: 500;
-	padding: 27px 10px;
+	font-weight: 600;
+	padding: 10px 15px;
 	text-transform: capitalize;
 	font-size: 14px;
+	color: white;
 }
 .nav-fixed .navbar .navbar-nav > li > .nav-link {
-	padding: 27px 10px;
+	padding: 20px 10px;
 }
 .navbar .navbar-nav > li > a.active, 
 .navbar .navbar-nav > li:hover > a,
@@ -1468,7 +1469,7 @@ button:focus {
 }
 .social_white .social_icons li a, .social_white.social_icons li a,
 .header_wrap .social_white .social_icons li a, .header_wrap .social_white.social_icons li a {
-	color: #fff;
+	color: #030302;
 	border-color: #fff;
 }
 .social_white .social_icons li a:hover, .social_white.social_icons li a:hover {
@@ -2884,12 +2885,16 @@ input.text {
 }
 .icon_box_style3 {
 	background-color: #fff;
-	padding: 30px;
+	padding: 15px;
 	z-index: 1;
 	height: 250px;
+	/* border-radius: 20px; */
+	border-radius: 10px;
+	box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+	transition: 0.5s ease;
 }
 .icon_box_style3::before {
-	content: "";
+	/* content: "";
 	position: absolute;
 	left: 0;
 	bottom: 0;
@@ -2898,7 +2903,7 @@ input.text {
 	top: 0;
 	z-index: -1;
 	transition: all 0.5s ease-in-out;
-	height: 3px;
+	height: 3px; */
 }
 .icon_box_style3:hover:before {
 	height: 100%;
@@ -2907,6 +2912,7 @@ input.text {
 	color: #FEBC34;
 	font-size: 40px;
 	transition: all 0.5s ease-in-out;
+	
 }
 .icon_box_style3:hover .icon i,
 .icon_box_style3:hover .icon_box_content * {
@@ -3919,6 +3925,8 @@ footer {
 }
 footer p {
 	font-size: 14px;
+
+    color: white;
 }
 footer .widget {
 	margin-bottom: 30px;
@@ -3993,7 +4001,7 @@ footer .widget_title {
 	color: #FEBC34;
 }
 .bottom_footer {
-	padding: 30px 0;
+	padding: 15px 0;
 	position: relative;
 }
 .footer_link li {
@@ -4264,7 +4272,7 @@ footer .widget_title {
   19. START BREADCRUMB STYLE
 *===================================*/
 .breadcrumb_section {
-	padding: 150px 0;
+	padding: 50px 0;
 	width: 100%;
 }
 .breadcrumb_section.page-title-mini {
@@ -7293,4 +7301,172 @@ background:#563015 !important ;
 
 .section.background_bg.counter_wrap.bg_blue.fixed_bg {
 	background: #454545 ;
+}
+
+
+
+
+
+
+.bg_sandle{
+	background: #fddac6;
+}
+.bg_orange{
+  background:#ab4c15;
+}
+
+.bg_blue{
+	background:#3794a2;
+}
+
+.text_blue{
+	color: #3794a2;
+}
+
+/* new color theme */
+.col-lg-6.col-md-12.col-sm-12.text-center
+.banner_content.text_white {
+    background: #ab4c15;
+    padding: 20px 30px;
+    border-radius: 19px;
+    text-align: left;
+}
+li.nav-item::before {
+    content: "|";
+    position: absolute;
+    color: white;
+    top: 7px;
+}
+
+header.header_wrap.fixed-top.dark_skin.main_menu_uppercase.header_with_topbar.nav-fixed li.nav-item::before {
+    content: "|";
+    position: absolute;
+    color: white;
+    top: 32%;
+}
+
+li.nav-item.line-none::before {
+    display: none;
+}
+
+
+a.nav-link.active {
+    color: #633415 !important;
+}
+
+.icon_box_style3:hover {
+    transition: transform 0.5s;
+}
+
+.icon_box.icon_box_style3.box_shadow1.text-center:hover {
+    background: #ab4c15;
+    /* border-radius: 0px; */
+    transition: 0.3s;
+	-webkit-transition: all 200ms ease-in;
+    -webkit-transform: scale(1.1);
+    -ms-transition: all 200ms ease-in;
+    -ms-transform: scale(1.1);   
+    -moz-transition: all 200ms ease-in;
+    -moz-transform: scale(1.1);
+    transition: all 100ms ease-in;
+    transform: scale(1.1);
+	transition: 0.4s ease;
+}
+
+.box_counter.counter_white.text-center {
+	background: #ab4c15;
+    border-radius: 52px;
+    padding: 15px 25px;
+    height: 260px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.section.small_pb.ptb-40 {
+    padding-top: 40px;
+    padding-bottom: 40px;
+	margin-bottom: 35px;
+}
+
+@media(min-width:1000px){
+	.page-title h1 {
+		font-size: 40px;
+	}
+}
+
+
+.navbar-nav > li:hover > a{
+	color: white !important;
+}
+
+button.btn.btn-headerbtn {
+    border: 0;
+    border-width: 1px;
+    cursor: pointer;
+    line-height: normal;
+    padding: 10px 15px;
+    text-transform: capitalize;
+    position: relative;
+    transition: all 0.5s ease-in-out;
+    z-index: 1;
+    overflow: hidden;
+    border-radius: 3px;
+    height: 35px;
+    background: #633415;
+    color: white;
+    border-radius: 5px;
+}
+
+.social_white.social_icons li a{
+	color: #fff;
+}
+
+
+
+.shapedividers_com-1837{
+    overflow: hidden;
+    position: relative;
+    background: #553014;
+    color: white !important;
+}
+.shapedividers_com-1837::before{ 
+content:'';
+font-family:'shape divider from ShapeDividers.com';
+position: absolute;
+z-index: 3;
+pointer-events: none;
+background-repeat: no-repeat;
+bottom: -0.1vw;
+left: -0.1vw;
+right: -0.1vw;
+top: -0.1vw; 
+background-size: 181% 90px;
+background-position: 50% 100%;  
+background-image: url("data:image/svg+xml;charset=utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 35.28 2.17' preserveAspectRatio='none'><path d='M35.28 1.16c-3.17-.8-7.3.4-10.04.56-2.76.17-9.25-1.47-12.68-1.3-3.42.16-4.64.84-7.04.86C3.12 1.31 0 .4 0 .4v1.77h35.28z' fill='%233794a2'/></svg>");
+
+}
+
+@media (min-width:2100px){
+.shapedividers_com-1837::before{
+background-size: 105% calc(2vw + 90px);
+}
+}
+
+
+@media(max-width:992px){
+	a.navbar-brand.d-none{
+		display: block !important;
+	}
+}
+ 
+footer.bg_darK.bg_orange.position-relative{
+	margin-top: 10PX;
+}
+
+.breadcrumb-item+.breadcrumb-item::before {
+    float: left;
+    color: white;
 }

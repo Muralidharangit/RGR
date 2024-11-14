@@ -24,8 +24,6 @@
 <!-- Animation CSS -->
 <link rel="stylesheet" href="assets/css/animate.css">
 <!-- Google Font -->
-<link href="https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&amp;display=swap" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&amp;display=swap" rel="stylesheet"> 
 <!-- Icon Font CSS -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 <link rel="stylesheet" href="assets/css/all.min.css">
@@ -34,9 +32,7 @@
 <link rel="stylesheet" href="assets/css/linearicons.css">
 <link rel="stylesheet" href="assets/css/flaticon.css">
 <!--- owl carousel CSS-->
-<link rel="stylesheet" href="assets/owlcarousel/css/owl.carousel.min.css">
-<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.css">
-<link rel="stylesheet" href="assets/owlcarousel/css/owl.theme.default.min.css">
+
 <!-- Magnific Popup CSS -->
 <link rel="stylesheet" href="assets/css/magnific-popup.css">
 <!-- Style CSS -->
@@ -54,10 +50,10 @@ padding-bottom: 20px;
 }
 .marque_img{
     width: 180px;
-    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    /* box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px; */
     height: 180px;
     object-fit: contain;
-
+    border-radius: 15px;
 }
 .marquee .d-flex{
   gap:20px
@@ -245,92 +241,90 @@ img.shape.one.animation-scalation.arrow-r{
 <body>
 
 <!-- LOADER -->
-<div id="preloader">
+<!-- <div id="preloader">
     <div class="d-flex justify-content-center align-items-center h-100">
         <img src="https://i.pinimg.com/originals/6c/f8/9a/6cf89a8bb47c0d7c2d5ec120749fda86.gif" alt="" srcset="" width="300px">
     </div>
-</div>
+</div> -->
 <!-- END LOADER --> 
 
 <!-- START HEADER -->
 <header class="header_wrap fixed-top dark_skin main_menu_uppercase header_with_topbar">
-    <div class="top-header light_skin bg_dark d-none d-md-block">
+    <div class="top-header light_skin bg_sandle d-none d-md-block">
         <div class="container">
-            <div class="row align-items-center">  
+            <div class="row align-items-center py-3">  
                 <div class="col-md-6">
-                    <ul class="contact_detail text-left text-lg-left">
-                    	<li><i class="fa-solid fa-phone"></i><span>+91 9566333317 </span></li>
-
-                        <li><i class="fa-solid fa-phone"></i><span>+91 9176552121</span></li>
-                    	<li><i class="fa-solid fa-envelope"></i><span>rgracademy@gmail.com</span></li>
-                        <!-- <li><a href="">
-                            <img src="https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Ftodoist.com%2Fstatic%2Fdownloads%2Fbuttons%2Fplay-store.svg"
-                                width="130px" />
-                        </a>
-                    </li> -->
-                    </ul>
+                    <a class="navbar-brand " href="index.html"> 
+                        <img class="logo_light" src="./assets/images/RGR-02.webp" alt="logo"> 
+                    </a>
                 </div>
                 <div class="col-md-6">
                     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-md-end">
-                        <ul class="contact_detail text-left text-lg-left mr-5">
+                        <!-- <ul class="contact_detail text-left text-lg-left mr-5">
                             <a href="https://play.google.com/store/apps/details?id=co.groot.rgra">
                                 <li><img src="	https://rgredu.com/images/playstore%20(1).png" alt="" srcset=""><span> Get Free Online Class</span></li>
                             </a>
                            
-                        </ul>
+                        </ul> -->
+
+                     
                         <ul class="social_icons social_white">
                             <li><a href="https://www.facebook.com/RGRACADEMYNO1NEETCOACHING"><i class="fa-brands fa-facebook-f"></i></a></li>
                             <li><a href="https://x.com/i/flow/login?redirect_after_login=%2Facademy_rgr"><i class="fa-brands fa-twitter"></i></a></li>
                             <li><a href="https://www.youtube.com/@RGRAcademy2023"><i class="fa-brands fa-youtube"></i></a></li>
                             <li><a href="https://www.instagram.com/rgr_academy/?igsh=NTc4MTIwNjQ2YQ%3D%3D#"><i class="fa-brands fa-instagram"></i></a></li>
                         </ul>
+
+                        <div>
+                            <button class="btn btn-headerbtn">+91 9566333317</button>
+                         </div>
                       
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container-full bg_orange">
     
 
        <nav class="navbar navbar-expand-lg ">
        
         <div class="container-fluid">
 
-            <a class="navbar-brand" href="index.html"> 
-                <img class="logo_light" src="./assets/images/RGR-02.png" alt="logo"> 
-                <img class="logo_dark" src="./assets/images/RGR-02.png" alt="logo"> 
+            <a class="navbar-brand d-none mobile_header" href="index.html"> 
+                <img class="logo_light" src="./assets/images/RGR-02.webp" alt="logo"> 
+                <img class="logo_dark" src="./assets/images/RGR-02.webp" alt="logo"> 
             </a>
           <!-- <a class="navbar-brand" href="#">Navbar</a> -->
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+          <div class="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
             <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link active" href="#">Home</a>
+                <li class="nav-item  line-none ">
+                    <a class="nav-link active" href="./index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">About</a>
+                    <a class="nav-link" href="./about.html">About</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="medicalDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Medical</a>
                     <ul class="dropdown-menu" aria-labelledby="medicalDropdown">
-                      <li><a class="dropdown-item" href="#">Medical Admission</a></li>
-                         <li><a class="dropdown-item" href="#">NEET</a></li>
-                            <li><a class="dropdown-item" href="#">AIIMS</a></li>
-                        <li><a class="dropdown-item" href="#">JIPMER</a></li>
+                      <li><a class="dropdown-item" href="./medical_admission.html">Medical Admission</a></li>
+                         <li><a class="dropdown-item" href="./neet.html">NEET</a></li>
+                            <li><a class="dropdown-item" href="./aiims.html">AIIMS</a></li>
+                        <li><a class="dropdown-item" href="./jipmer.html">JIPMER</a></li>
                         <li><a class="dropdown-item" href="#">Online Test</a></li>
                     </ul>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="engineeringDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Engineering</a>
                     <ul class="dropdown-menu" aria-labelledby="engineeringDropdown">
-                        <li><a class="dropdown-item" href="#">IIT - JEE</a></li>
+                        <li><a class="dropdown-item" href="./iit-JEE.html">IIT - JEE</a></li>
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Abroad</a>
+                    <a class="nav-link" href="./Aboard.html">Abroad</a>
                 </li>
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="./teacher.html" id="facultyDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Faculty</a>
@@ -339,10 +333,10 @@ img.shape.one.animation-scalation.arrow-r{
                     </ul>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Gallery</a>
+                    <a class="nav-link" href="./gallery.html">Gallery</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact</a>
+                    <a class="nav-link" href="./contact.html">Contact</a>
                 </li>
             </ul>
            
@@ -356,21 +350,21 @@ img.shape.one.animation-scalation.arrow-r{
 <!-- END HEADER --> 
 
 
-<div class="banner_section full_screen staggered-animation-wrap mobile_slider d-none" >
+<div class="banner_section full_screen staggered-animation-wrap" >
     <div id="carouselExampleControls" class="carousel slide carousel-fade light_arrow" data-ride="carousel">
         <div class="carousel-inner">
             <div class="carousel-item active">
-            	<div class="slide_banner_img overlay_bg_70 background_bg zoom-in" data-img-src="assets/images/banner4.jpg" style="background-image: url(&quot;assets/images/banner4.jpg&quot;);"></div>
+            	<div class="slide_banner_img overlay_bg_70 background_bg zoom-in" data-img-src="assets/images/banner2.jpg" style="background-image: url(&quot;assets/images/banner2.jpg&quot;);"></div>
                     <div class="banner_slide_content">
                     	<div class="container"><!-- STRART CONTAINER -->
-                        <div class="row justify-content-center">    
-                            <div class="col-lg-7 col-md-12 col-sm-12 text-center">
+                        <div class="row justify-content-start">    
+                            <div class="col-lg-6 col-md-12 col-sm-12 text-center">
                                     <div class="banner_content text_white">
                                         <h2 class="" data-animation="fadeInUp" data-animation-delay="0.2s" style="animation-delay: 0.2s; opacity: 1;">Welcome To RGR ACADEMY</h2>
                                         <p data-animation-delay="0.4s" style="animation-delay: 0.4s; opacity: 1;"> We have
                                             completed 13 years of service to the student community – helping to build a few hundred thousand
                                             careers along the way..</p>
-                                        <a class="btn btn-default rounded-0 " href="#" data-animation="fadeInUp" data-animation-delay="0.6s" style="animation-delay: 0.6s; opacity: 1;">Get Started</a>
+                                        <a class="btn btn-default  " href="#" data-animation="fadeInUp" data-animation-delay="0.6s" style="animation-delay: 0.6s; opacity: 1;">Get Started</a>
                                         <a class="btn btn-white rounded-0 " href="#" data-animation="fadeInUp" data-animation-delay="0.6s" style="animation-delay: 0.6s; opacity: 1;">Learn More</a>
                                     </div>
                                 </div>
@@ -384,87 +378,37 @@ img.shape.one.animation-scalation.arrow-r{
     </div>
 </div>
 
-<!-- START SECTION BANNER -->
-<div class="banner_section staggered-animation-wrap lap-banner">
-  
-    <div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
-        <div class="carousel-inner">
-          <div class="carousel-item active zoom-in" data-bs-interval="10000">
-            <img src="assets/images/banner/Rgr Banner.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item zoom-in" data-bs-interval="3000">
-            <img src="assets/images/banner/Rgr Banner 02.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item"  data-bs-interval="3000">
-            <img src="assets/images/banner/Rgr Banner 03.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item"  data-bs-interval="3000">
-            <img src="assets/images/banner/Rgr Banner 04.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item"  data-bs-interval="3000">
-            <img src="assets/images/banner/Rgr Banner 05.jpg" class="d-block w-100" alt="...">
-          </div>
-          <div class="carousel-item"  data-bs-interval="3000">
-            <img src="assets/images/banner/Rgr Banner 06.jpg" class="d-block w-100" alt="...">
-          </div>
-        </div>
-        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Previous</span>
-        </button>
-        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="visually-hidden">Next</span>
-        </button>
-      </div>
-          
-     
-</div>
-<!-- END SECTION BANNER --> 
+
 
 
 
 
 
 <!-- Running image Moving -->
-<div class="section pb-0  bg_gray position-relative w-100">
-    <div class="">
-
-        <!-- <img src="	https://wowtheme7.com/tf/eduall/demo/assets/images/shapes/shape2.png" alt="" class="shape one animation-scalation"> -->
-
-        <!-- <img src="	https://wowtheme7.com/tf/eduall/demo/assets/images/shapes/shape3.png
-        " alt="" class="shape four animation-rotation">
-
-        <img src="https://wowtheme7.com/tf/eduall/demo/assets/images/shapes/shape3.png" alt="" class="shape three animation-walking">
-   -->
-
-        <img src="assets/images/about/registered-document1.png" alt="" class="shape six animation-walking " width="50px">
-    
-    </div>
+<div class="section pb-0  bg_orange position-relative w-100">
+ 
   
     <div class="container ">
         <div class="heading_s1 mb-5 text-center animation" data-animation="fadeInUp" data-animation-delay="0.1s" > 
-            <span class="sub_heading">Students</span>
-            <h2>MBBS/ BDS Government SF College Seat holders</h2>
+            <h1 class="text_blue header_title text-white">OUR STUDENT</h1>
         </div>
 
 
 
     <div class="marquee">
        <div class="d-flex">
-        <img src="assets/images/student/1.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.1s">
-        <img src="assets/images/student/2.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-        <img src="assets/images/student/3.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.3s">
-        <img src="assets/images/student/4.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.4s">
-        <img src="assets/images/student/5.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.5s">
-        <img src="assets/images/student/6.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.6s">
-        <img src="assets/images/student/7.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.7s">
-        <img src="assets/images/student/8.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.8s">
-        <!-- <img src="assets/images/student/9.jpg" alt="" srcset="" class="marque_img"> -->
-        <img src="assets/images/student/10.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.9s">
-        <img src="assets/images/student/11.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.9s">  
-        <img src="assets/images/student/12.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.9s">
-        <img src="assets/images/student/13.jpg" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.9s">
+        <img src="assets/images/student/1.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.1s">
+        <img src="assets/images/student/2.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+        <img src="assets/images/student/3.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+        <img src="assets/images/student/4.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.4s">
+        <img src="assets/images/student/5.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.5s">
+        <img src="assets/images/student/6.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.6s">
+        <img src="assets/images/student/7.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.7s">
+        <img src="assets/images/student/8.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.8s">
+        <img src="assets/images/student/10.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.9s">
+        <img src="assets/images/student/11.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.9s">  
+        <img src="assets/images/student/12.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.9s">
+        <!-- <img src="assets/images/student/13.png" alt="" srcset="" class="marque_img animation" data-animation="fadeInUp" data-animation-delay="0.9s"> -->
 
 
        </div>
@@ -481,21 +425,21 @@ img.shape.one.animation-scalation.arrow-r{
 <!-- Running image Moving end -->
 
 <!-- START SECTION ABOUT -->
-<div class="section position-relative w-100">
+<div class="section position-relative w-100 bg_gray">
    
     <!-- <img src="assets/images/about/sh33.png" alt="" class="shape one about animation-scalation" width="100px"> -->
     <div class="container">
       
         <div class="row align-items-center">
         
-          	<div class="col-lg-6 animation position-relative" data-animation="fadeInUp" data-animation-delay="0.2s" >
+          	<div class="col-lg-12 animation position-relative text-center" data-animation="fadeInUp" data-animation-delay="0.2s" >
 
-                <img src="assets/images/about/open-book11.png" class="shape one animation-walking " width="50px">
+                <!-- <img src="assets/images/about/open-book11.png" class="shape one animation-walking " width="50px"> -->
     
             	<div class="about_section pl-lg-3">
               		<div class="heading_s1"> 
-                    	<span class="sub_heading">About Us</span>
-                		<h2>Welcome To RGR ACADEMY</h2>
+                    	
+                		<h2 class="text_blue display-4">Welcome To RGR ACADEMY</h2>
               		</div>
               		<p>
                         RGR ACADEMY is one of the best and familiar entrance coaching institutes in Chennai, which is established so far for providing best of all competitive coaching to students to crack entrance exams. We conduct the classes for students in many streams such as NEET, JIPMER, AIIMS, IIT/JEE and Finance with all the facilities such as well-versed environment, classy laboratories, library etc. 
@@ -504,17 +448,87 @@ img.shape.one.animation-scalation.arrow-r{
                         
                         Each and every year there are number of students got placed in top government and private medical, engineering and finance colleges by clearing the competitive exams from our institute. Our main aim is shine our every student in a unique way to develop their profession so we think that is our great success in this society.
                     </p>
-              		<a class="btn btn-dark" href="./about.html">Read More</a> 
+              		<a class="btn btn-dark bg_orange" href="./about.html">Read More</a> 
                 </div>
 			</div>
 
-            <div class="col-lg-6 animation position-relative" data-animation="fadeInUp" data-animation-delay="0.5s" >
-                <img src="assets/images/about/sh33.png" alt="" class="shape one about animation-scalation" width="100px">
-            	<div class="about_img"> 
-                	<img src="assets/images/about/about_img-1.png" alt="about_img2" /> 
-                </div>
-          	</div>
+          
 		</div>
+	</div>
+</div>
+<!-- END SECTION ABOUT -->
+
+
+<!-- START SECTION ABOUT -->
+<div class="section position-relative w-100 ">
+   
+    <!-- <img src="assets/images/about/sh33.png" alt="" class="shape one about animation-scalation" width="100px"> -->
+    <div class="container bg_blue">
+        <div class="row align-items-center">
+
+
+            <div class="col-lg-6 animation position-relative text-center p-0" data-animation="fadeInUp" data-animation-delay="0.2s" >
+
+                <!-- <img src="assets/images/about/open-book11.png" class="shape one animation-walking " width="50px"> -->
+    
+                <div class="about_img"> 
+                    <img src="assets/images/about/about_img-1.png" alt="about_img2"> 
+                </div>
+            </div>
+  
+        
+            <div class="col-lg-6 animation position-relative text-center " data-animation="fadeInUp" data-animation-delay="0.2s" >
+
+              <!-- <img src="assets/images/about/open-book11.png" class="shape one animation-walking " width="50px"> -->
+  
+              <div class="about_section pl-lg-3">
+                    <div class="heading_s1"> 
+                      
+                      <h1 class="text-white ">Welcome To RGR ACADEMY</h1>
+                    </div>
+                    <p class="text-white">
+                      RGR ACADEMY is one of the best and familiar entrance coaching institutes in Chennai, which is established so far for providing best of all competitive coaching to students to crack entrance exams. We conduct the classes for students in many streams such as NEET, JIPMER, AIIMS, IIT/JEE and Finance with all the facilities such as well-versed environment, classy laboratories, library etc. 
+                  </p>
+                
+                    <a class="btn btn-dark bg_orange" href="./about.html">Read More</a> 
+              </div>
+          </div>
+
+        
+        
+      </div>
+        <div class="row align-items-center">
+        
+          	<div class="col-lg-6 animation position-relative text-center" data-animation="fadeInUp" data-animation-delay="0.2s" >
+
+                <!-- <img src="assets/images/about/open-book11.png" class="shape one animation-walking " width="50px"> -->
+    
+            	<div class="about_section pl-lg-3">
+              		<div class="heading_s1"> 
+                    	
+                		<h1 class=" text-white">Welcome To RGR ACADEMY</h1>
+              		</div>
+              		<p  class="text-white">
+                        RGR ACADEMY is one of the best and familiar entrance coaching institutes in Chennai, which is established so far for providing best of all competitive coaching to students to crack entrance exams. We conduct the classes for students in many streams such as NEET, JIPMER, AIIMS, IIT/JEE and Finance with all the facilities such as well-versed environment, classy laboratories, library etc. 
+                    </p>
+                  
+              		<a class="btn btn-dark bg_orange" href="./about.html">Read More</a> 
+                </div>
+			</div>
+
+            <div class="col-lg-6 animation position-relative text-center p-0" data-animation="fadeInUp" data-animation-delay="0.2s" >
+
+                <!-- <img src="assets/images/about/open-book11.png" class="shape one animation-walking " width="50px"> -->
+    
+                <div class="about_img"> 
+                	<img src="assets/images/about/about_img-1.png" alt="about_img2"> 
+                </div>
+			</div>
+
+          
+		</div>
+
+    
 	</div>
 </div>
 <!-- END SECTION ABOUT -->
@@ -527,20 +541,19 @@ img.shape.one.animation-scalation.arrow-r{
 
 
 <!-- START SECTION WHY CHOOSE --> 
-<div class="section  pb_70 bg_gray position-relative">
-    <img src="assets/images/about/sh33.png" alt="" class="shape one animation-rotation choose" width="100px">
-     <img src="assets/images/about/registered-document1.png" alt="" class="shape six animation-walking" width="50px">
+<div class="section  pb_70  position-relative bg_blue">
+    
 	<div class="container">
     	<div class="row justify-content-center">
         	<div class="col-xl-6 col-md-8 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
-                <div class="heading_s1 text-center">
-                    <h2>Why Choose Us</h2>
+                <div class="heading_s1 text-center  text-white">
+                    <h2 class="text-white">Why Choose Us</h2>
                 </div>
-                <p class="text-center leads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <p class="text-center leads text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
             </div>
         </div>
         <div class="row justify-content-center ">
-        	<div class="col-lg-4 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
+        	<div class="col-xl-3 col-lg-4 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
             	<div class="icon_box icon_box_style3 box_shadow1 text-center">
                 	<div class="icon">
                         <i class="fa-solid fa-calendar-day"></i>
@@ -553,7 +566,7 @@ img.shape.one.animation-scalation.arrow-r{
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+            <div class="col-xl-3 col-lg-4 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
             	<div class="icon_box icon_box_style3 box_shadow1 text-center">
                 	<div class="icon">
                     	<i class="fas fa-graduation-cap"></i>
@@ -566,7 +579,7 @@ img.shape.one.animation-scalation.arrow-r{
                     </div>
                 </div>
             </div>
-            <div class="col-lg-4 col-md-6 animation " data-animation="fadeInUp" data-animation-delay="0.3s">
+            <div class="col-xl-3 col-lg-4 col-md-6 animation " data-animation="fadeInUp" data-animation-delay="0.3s">
             	<div class="icon_box icon_box_style3 box_shadow1 text-center">
                 	<div class="icon">
                     	<i class="fa-solid fa-book"></i>
@@ -580,7 +593,7 @@ img.shape.one.animation-scalation.arrow-r{
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 animation " data-animation="fadeInUp" data-animation-delay="0.3s">
+            <div class="col-xl-3 col-lg-4 col-md-6 animation " data-animation="fadeInUp" data-animation-delay="0.3s">
             	<div class="icon_box icon_box_style3 box_shadow1 text-center">
                 	<div class="icon">
                         <i class="fa-regular fa-file-lines"></i>
@@ -595,7 +608,7 @@ img.shape.one.animation-scalation.arrow-r{
             </div>
 
 
-            <div class="col-lg-4 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+            <div class="col-xl-3 col-lg-4 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
             	<div class="icon_box icon_box_style3 box_shadow1 text-center">
                 	<div class="icon">
                         <i class="fa-solid fa-globe"></i>
@@ -609,7 +622,7 @@ img.shape.one.animation-scalation.arrow-r{
                 </div>
             </div>
 
-            <div class="col-lg-4 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
+            <div class="col-xl-3 col-lg-4 col-md-6 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
             	<div class="icon_box icon_box_style3 box_shadow1 text-center">
                 	<div class="icon">
                         <i class="fa-solid fa-hand-holding-dollar"></i>
@@ -635,8 +648,8 @@ img.shape.one.animation-scalation.arrow-r{
 
 
 <!-- START SECTION COUNTER -->
-<div class="section background_bg counter_wrap bg_blue fixed_bg" data-img-src="assets/images/pattern_bg1.png" style="background-image: url(&quot;assets/images/pattern_bg1.png&quot;);">
-    <div class="container">
+<div class="section background_bg counter_wrap bg_blue fixed_bg" data-img-src="assets/images/count.jpg" style="background-image: url(&quot;assets/images/count.jpg&quot;);background-size: cover;background-position: center; width:100%">
+    <div class="container" style="max-width:1000px;">
         <div class="row">
             <div class="col-lg-3 col-md-3 col-6 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
                 <div class="box_counter counter_white text-center"><img src="assets/images/icon/1.png" width="50px">
@@ -668,23 +681,22 @@ img.shape.one.animation-scalation.arrow-r{
 <!-- END SECTION COUNTER --> 
 
 <!-- START SECTION WHY CHOOSE --> 
-<div class="section pb_70 position-relative">
+<div class="section pb_70 position-relative bg_blue ">
 
 
-    <img src="assets/images/about/arrow-r.png" alt="" class="shape two animation-upDown" width="80px">
-      <img src="assets/images/about/registered-document1.png" alt="" class="shape four animation-walking" width="50px">
-
+  
 
 	<div class="container position-relative">
     
         <div class="row justify-content-center">
         	<div class="col-lg-6 col-md-6">
+                <div class="text-center">
+                    <h3 class="event_title text-white"><a href="#" class="m-0 text-white">NEET</a></h3>
+                </div>
                 <div class="event_box radius_all_10 box_shadow1 animation" data-animation="fadeInLeft" data-animation-delay="0.3s">
                   
                     <div class="">
-                        <div class="header-card text-center p-3 d-flex align-items-center justify-content-center bg_brown">
-                            <h3 class="event_title text-white"><a href="#" class="m-0 text-white">NEET</a></h3>
-                        </div>
+                       
 
                         <div class="card-content p-3 border_top">
                             <div class="text-left  pt-0">
@@ -714,12 +726,13 @@ img.shape.one.animation-scalation.arrow-r{
             </div>
 
             <div class="col-lg-6 col-md-6">
+                <div class="text-center">
+                    <h3 class="event_title text-white"><a href="#" class="m-0 text-white">IIT - JEE</a></h3>
+                </div>
                 <div class="event_box radius_all_10 box_shadow1 animation " data-animation="fadeInRight" data-animation-delay="0.3s">
                   
                     <div class="">
-                        <div class="header-card text-center p-3 d-flex align-items-center justify-content-center bg_brown ">
-                            <h3 class="event_title text-white"><a href="#" class="m-0 text-white">IIT - JEE</a></h3>
-                        </div>
+                    
 
                         <div class="card-content p-3 border_top">
                             <div class="text-left pt-0">
@@ -777,24 +790,23 @@ img.shape.one.animation-scalation.arrow-r{
 
 
 <!-- START SECTION EVENTS-->
-<div class="section pb_70 position-relative">
+<div class="section pb_70 position-relative bg_blue">
     
-   
-     <img src="assets/images/about/registered-document1.png" alt="" class="shape seven animation-walking" width="50px">
+
 
 
 
 	<div class="container position-relative">
-        <img src="assets/images/about/arrow=l.png" alt="" class="shape one animation-scalation arrow-r" width="150px">
+       
         <div class="row justify-content-center">
         	<div class="col-lg-6 col-md-8 animation" data-animation="fadeInUp" data-animation-delay="0.2s">
                 <div class="heading_s1 text-center ">
-                    <h2>Discover related topics</h2>
+                    <h2 class="text-white"> Discover related topics</h2>
                 </div>
-                <p class="text-center leads">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
+                <p class="text-center leads text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore.</p>
         	</div>
         </div>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center pb-5">
             <div class="col-lg-12 col-md-6 position-relative">
 
                
@@ -802,9 +814,9 @@ img.shape.one.animation-scalation.arrow-r{
                     <div class="event_box radius_all_10 box_shadow1 mb-0 animation" data-animation="fadeInUp" data-animation-delay="0.3s">
                   
                         <div class="">
-                            <div class="header-card text-center p-3 d-flex align-items-center justify-content-center bg_brown">
+                            <!-- <div class="header-card text-center p-3 d-flex align-items-center justify-content-center bg_brown">
                                 <h3 class="event_title text-white"><a href="#" class="m-0 text-white">Discover Related Topics</a></h3>
-                            </div>
+                            </div> -->
     
                             <div class="card-content p-3 border_top">
                                 <div class="text-left  pt-0 d-flex justify-content-between">
@@ -853,184 +865,146 @@ img.shape.one.animation-scalation.arrow-r{
 <!-- END SECTION EVENTS--> 
  
 
-<!-- START SECTION CALL TO ACTION -->
-<div class="section background_bg overlay_bg_70 fixed_bg" data-img-src="assets/images/about/cont.png">
-	<div class="container position-relative">
-    	<div class="row justify-content-center">
-        	<div class="col-xl-6 col-lg-7 col-md-10  text-center">
-            	<div class="heading_s1 heading_light">
-                	<span class="sub_heading text-white">Let's Work With Us</span>
-                	<h2>9566333317</h2>
-                </div>
-                <p class="text-white">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus blandit massa eiusmod tempor incididunt labore.</p>
-                <div class="cta_btn">
-            		<a href="./contact.html" class="btn btn-default btn-radius">Contact Now</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</div>
-<!-- END SECTION CALL TO ACTION -->
 
 
 
 <!-- START FOOTER -->
-<footer class="bg_dark footer_dark">
-    <div class="footer_top">
-    	<div class="container">
-    		<div class="row">
-    			<div class="col-xl-4 col-md-8 col-sm-12">
-    				<div class="widget">
-    					<div class="footer_logo"> 
-                        	<a href="index.html"><img src="assets/images/darklogo.png" alt="logo"/></a> 
-                        </div>
-    					<p>RGR Academy is one of the Tamil nadu’s leading entrance training institute headquartered in Chennai. Established in 2004, over 25 Doctorate/IIT graduates along with the Founder/Director R.Govindraj form part of the core team at RGR. We have completed 13 years of service to the student community – helping to build a few hundred thousand careers along the way.
+<footer class="bg_darK bg_orange position-relative">
 
-                        </p>
-    				</div>
+    <!-- <div style="background-color: white;width: 300px;height: 200px;position: absolute;top:0;right: 0;"> -->
+  
+    </div>
+      <div class="footer_top">
+          <div class="container">
+              <div class="row">
+                  <div class="col-lg-5 col-xl-4 col-md-8 col-sm-12">
+                      <div class="widget">
+                          <div class="footer_logo"> 
+                              <a href="index.html"><img src="assets/images/darklogo.png" alt="logo"/></a> 
+                          </div>
+                          <p class="text-white">RGR Academy is one of the Tamil nadu’s leading entrance training institute headquartered in Chennai. Established in 2004, over 25 Doctorate/IIT graduates along with the Founder/Director R.Govindraj form part of the core team at RGR. We have completed 13 years of service to the student community – helping to build a few hundred thousand careers along the way.
+  
+                          </p>
+                      </div>
+  
+                  
+                  </div>
+                 
+                  <div class="col-lg-2 col-xl-2 col-md-6 col-sm-7">
+                      <div class="widget">
+                          <h6 class="widget_title text-white">Recent Posts</h6>
+                          <ul class="widget_links text-white">
+                              <li><a href="#" class="text-white">Our services</a></li>
+                              <li><a href="#"  class="text-white">Company history</a></li>
+                              <li><a href="#"  class="text-white">Support center</a>
+                              </li><li><a href="#"  class="text-white">Latest Projects</a></li>
+                              <li><a href="#"  class="text-white">Our Mission</a>
+                              </li><li><a href="#"  class="text-white">Our Testimonials</a></li>
+                              <li><a href="#"  class="text-white">Contact Us</a></li>
+                          </ul>
+                      </div>
+                  </div>
 
-                    <div class="mb-4">
-                        <a href="">
-                            <img src="https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Ftodoist.com%2Fstatic%2Fdownloads%2Fbuttons%2Fplay-store.svg"
-                            width="130px" />
-                        </a>
-                       
-                    </div>
-    				
+                  <div class="col-lg-2 col-xl-2 col-md-6 col-sm-7">
                     <div class="widget">
-                        <ul class="social_icons social_white social_style1 rounded_social">
-                            <li><a href="https://www.facebook.com/RGRACADEMYNO1NEETCOACHING"><i class="ion-social-facebook"></i></a></li>
-                            <li><a href="https://x.com/i/flow/login?redirect_after_login=%2Facademy_rgr"><i class="ion-social-twitter"></i></a></li>
-                            <!-- <li><a href="#"><i class="ion-social-googleplus"></i></a></li> -->
-                            <li><a href="https://www.youtube.com/@RGRAcademy2023"><i class="ion-social-youtube-outline"></i></a></li>
-                            <li><a href="https://www.instagram.com/rgr_academy/?igsh=NTc4MTIwNjQ2YQ%3D%3D#"><i class="ion-social-instagram-outline"></i></a></li>
+                        <h6 class="widget_title text-white">Our Branch</h6>
+                        <ul class="widget_links text-white">
+                            <li><a href="#" class="text-white">  Anna Nagar</a></li>
+                            <li><a href="#"  class="text-white">Perambur</a></li>
+                            <li><a href="#"  class="text-white">Tambaram</a>
+                            </li><li><a href="#"  class="text-white">Washermenpet</a></li>
+                            <li><a href="#"  class="text-white">Ambattur</a>
+                            </li><li><a href="#"  class="text-white">Avadi</a></li>
+                      
+
+
+
+
+
+
                         </ul>
                     </div>
-    			</div>
-               
-                <div class="col-xl-4 col-md-6 col-sm-7">
-                    <div class="widget">
-                        <h6 class="widget_title">Recent Posts</h6>
-                        <ul class="contact_info contact_info_light">
-                            <li> 
-                               <i class="fa-solid fa-location-dot"></i>
-                                <a href="https://maps.app.goo.gl/JfpJhPmzYsF6oVXX9">
-                                    Anna nagar - W677 east main road, anna nagar west extn, Chennai - 600101.
-                                    Near - Thirumangalam police station and Leo school.
-                                    <br>
-                                    <p>
-                                    Contact Person:
-                                    Priya suresh,
-                                    Contact No:8695186953
-                                    </p>
-                                </a>
-                            </li>
-
-                            <li>
-                               <i class="fa-solid fa-location-dot"></i>
-                                <a href="https://maps.app.goo.gl/7F7kGr9xvToY59Ab8">
-                                    Perambur - No 159/1, patel road, perambur,Chennai - 6000011.
-                                    Near - Fruit market &amp; Railway station.
-                                    <br>
-                                    <p>Contact Person:
-                                        Kalai,Contact No: 8925824312</p>
-                                </a>
-                            </li>
-                            <li>
-                               <i class="fa-solid fa-location-dot"></i>
-                                <a href="https://g.co/kgs/8LyywY">Ambattur - No 210, old MTH road, Ambattur OT
-                                    Chennai - 600053.
-                                    Opp to - Sbi bank.<br>
-                                    <p>Contact Person: Sudha,Contact No: 8925824313
-                                    </p>
-                                </a>
-                            </li>
-                            <li>
-                               <i class="fa-solid fa-location-dot"></i>
-                                <a href="https://www.google.com/maps?q=13.1204494,80.103267&amp;z=17&amp;hl=en">Avadi - Meyyars Tower, No 10/17, HVF Tank road, Chennai- 600054.
-                                    
-                                    Near Bus terminal.<br>
-                                
-                                    <p>Contact Person: Vinitha,
-                                        Contact No:8925824318
-                                    </p>
-                                </a>
-                            </li>
-                        <ul>
-                    </div>
                 </div>
-                <div class="col-xl-4 col-md-6 col-sm-12">
-                    <div class="widget">
-                        <h6 class="widget_title">Contact Info</h6>
-                        <ul class="contact_info contact_info_light">
-                            <li>
-                               <i class="fa-solid fa-location-dot"></i>
-                                <a href="https://maps.app.goo.gl/XdALN34gPuccdWyT7">
-                                    Washermenpet - No 788, thiruvottriyur high road, old Washermenpet, Chennai - 600021.
-                                    Opp to - Thiyagaraya arts college. <br><p>
-            
-                                        Contact Person:Pradeepa,Contact No:8925824315
-                                    </p>
-                                </a>
-                            </li>
-                            <li>
-                               <i class="fa-solid fa-location-dot"></i>
-                                <a href="https://goo.gl/maps/Lv7BA3841MPXxk4T8">
-                                    Tambaram - No 41, Gandhi road, west tambaram, Chennai - 600045.
-                                    Near - Punjab national Bank<br>
-                                    <p>Contact person:Sivasu,
-                                        Contact No:8925824316
-                                    </p>
-                                </a>
-                            </li>
-                            <li>
-                               <i class="fa-solid fa-location-dot"></i>
-                                <a href="https://maps.app.goo.gl/h7RRQViaLoNHUTFU8">
-                                    West mambalam - No 24/1, 2nd floor, umapathy street, west mambalam, Chennai - 600033.
-                                    Near - Ayothya mandabam &amp; KS academy<br><p>
-                                        Contact person: Mallikarjuna,
-                                        Contact No:-8925824317
-                                    </p>
-                                </a>
-                            </li>
-                            
+
+  
+                  <div class="col-lg-3 col-xl-4 col-md-6 col-sm-7">
+                      <div class="widget">
+                          <h6 class="widget_title text-white">Address</h6>
+                          <ul class="contact_info contact_info_light">
+                              <li> 
+                                 <i class="fa-solid fa-location-dot"></i>
+                                  <a href="https://maps.app.goo.gl/JfpJhPmzYsF6oVXX9" class="text-white">
+                                      Anna nagar - W677 east main road, anna nagar west extn, Chennai - 600101.
+                                      Near - Thirumangalam police station and Leo school.
+                                     
+                                  </a>
+                              </li>
+  
+                              <li> 
+                                <i class="fa-solid fa-phone"></i>
+                                   <a href="https://maps.app.goo.gl/JfpJhPmzYsF6oVXX9" class="text-white">
+                                      9566333317
+                                      
+                                   </a>
+                               </li>
+   
+  
+                               <li> 
+                                <i class="fa-solid fa-envelope"></i>
+                                   <a href="https://maps.app.goo.gl/JfpJhPmzYsF6oVXX9" class="text-white">
+                                      admin@rgredu.com.
+                                      
+                                   </a>
+                               </li>
+   
+  
+                         
+                          <ul>
+                      </ul></ul>
+                      </div>
+  
+                      <div class="mb-4">
+                          <a href="">
+                              <img src="https://res.cloudinary.com/imagist/image/fetch/q_auto,f_auto,c_scale,w_2624/https%3A%2F%2Ftodoist.com%2Fstatic%2Fdownloads%2Fbuttons%2Fplay-store.svg"
+                              width="130px" />
+                          </a>
+                         
+                      </div>
+                      
+                      <div class="widget">
+                          <ul class="social_icons social_white social_style1 rounded_social">
+                              <li><a href="https://www.facebook.com/RGRACADEMYNO1NEETCOACHING"><i class="ion-social-facebook"></i></a></li>
+                              <li><a href="https://x.com/i/flow/login?redirect_after_login=%2Facademy_rgr"><i class="ion-social-twitter"></i></a></li>
+                              <!-- <li><a href="#"><i class="ion-social-googleplus"></i></a></li> -->
+                              <li><a href="https://www.youtube.com/@RGRAcademy2023"><i class="ion-social-youtube-outline"></i></a></li>
+                              <li><a href="https://www.instagram.com/rgr_academy/?igsh=NTc4MTIwNjQ2YQ%3D%3D#"><i class="ion-social-instagram-outline"></i></a></li>
+                          </ul>
+                      </div>
+                  </div>
+                
+              </div>
+          </div>
+      </div>
+      <div class="container">
+          <div class="row">
+              <div class="col-12">
+                  <div class="bottom_footer border-top-tran">
+                      <div class="row">
+                          <div class="col-md-12">
+                              <p class="mb-md-0 text-center text-md-left">© 2024 All Rights Reserved by Syscorp </p>
+                          </div>
                           
-                            
-                                <li>
-                                    <i class="fa-solid fa-envelope"></i>
-                                    <a href="mailto:info@sitename.com">info@sitename.com</a>
-                                </li>
-                                <li>
-                                   <i class="fa-solid fa-mobile-screen-button"></i>
-                                    <p>+ 457 789 789 65</p>
-                                </li>
-                            
-                        </ul>
-                    </div>
-                </div>
-    		</div>
-    	</div>
-    </div>
-    <div class="container">
-    	<div class="row">
-    		<div class="col-12">
-    			<div class="bottom_footer border-top-tran">
-    				<div class="row">
-    					<div class="col-md-12">
-    						<p class="mb-md-0 text-center text-md-left">© 2024 All Rights Reserved by Syscorp </p>
-    					</div>
-                        
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-</footer>
-<!-- END FOOTER --> 
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+  <!-- END FOOTER --> 
 
 <a href="#" class="scrollup" style="display: none;"><i class="ion-ios-arrow-up"></i></a> 
 
-
+btn btn-default rounded-0 
 
 
 <!-- Latest jQuery --> 
@@ -1143,6 +1117,25 @@ $(document).ready(function () {
         });
     }
 });
+</script>
+
+<script>
+    function adjustMarqueeSpeed() {
+  const dFlex = document.querySelector('.marquee .d-flex');
+  const screenWidth = window.innerWidth;
+  
+  // Adjust animation duration based on screen width
+  if (screenWidth <= 768) {
+    dFlex.style.animationDuration = '10s'; // Faster for mobile
+  } else {
+    dFlex.style.animationDuration = '15s'; // Slower for desktop
+  }
+}
+
+// Initial call and event listener for window resizing
+adjustMarqueeSpeed();
+window.addEventListener('resize', adjustMarqueeSpeed);
+
 </script>
 
 </body>
