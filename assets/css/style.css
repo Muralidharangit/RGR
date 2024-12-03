@@ -7460,6 +7460,10 @@ background-size: 105% calc(2vw + 90px);
 	a.navbar-brand.d-none{
 		display: block !important;
 	}
+
+	.right-img{
+       display: none;
+	}
 }
  
 footer.bg_darK.bg_orange.position-relative{
